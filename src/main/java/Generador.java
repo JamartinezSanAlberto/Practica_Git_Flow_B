@@ -1,11 +1,10 @@
 public class Generador {
-    public static void main(String[] args){
-        generar_pista();
-    }
-    public static String generar_pista(){
-        //Accedo a las palabras
-        String primeraPalabra = "peter";
-        String segundaPalabra = "penta";
+    /*
+        Autor: Mario Nadal Ara
+        Fecha: 26/04/2023
+        Funcionalidad: Comprobar palabra introducida por el usuario con la creada por el programa dependiendo de la posicion de las letras
+    */
+    public static String generar_pista(String primeraPalabra, String segundaPalabra){
         String comprobacionPalabra = "";
         for(int contador = 0; contador<segundaPalabra.length();contador++){
             if(primeraPalabra.charAt(contador)==segundaPalabra.charAt(contador)){
