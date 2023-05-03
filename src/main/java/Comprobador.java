@@ -4,7 +4,7 @@
  * -> Fecha: 03/05/2023 <-
  */
 public class Comprobador {
-    private static boolean Comprueba(String palabra, Integer longitud){
+    public static boolean Comprueba(String palabra, Integer longitud){
         if(palabra.length()==longitud && palabra.equals(palabra.toUpperCase())){
             return true;
         }
