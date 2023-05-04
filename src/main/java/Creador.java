@@ -6,7 +6,7 @@ public class Creador {
         Fecha: 26/04/2023
         Funcionalidad: Crear sequencia aleatoria de letras mayusculas
      */
-    private static String crearClave(int numLetras) {
+    public static String crearClave(int numLetras) {
         Random random = new Random();
         String clave = "";
         for(int contador = 0; contador<numLetras; contador++) {
