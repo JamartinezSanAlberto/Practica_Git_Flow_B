@@ -10,7 +10,8 @@ public class main {
         String palabraUsuario = "";
         //Presentación
         System.out.println("Bienvenido a el Wordle barato");
-        System.out.println("¿Podrás adivinar la palabra de 5 letras? ¡¿En tan solo 5 intentos?!");
+        System.out.println("¿Podrás adivinar la palabra de 5 letras? ¡¿En tan solo "+intentos+" intentos?!");
+        System.out.println(palabraSecreta);
         while(intentos>0 && !palabraSecreta.equals(palabraUsuario)){
             System.out.println("Intenta adivinar la palabra");
             palabraUsuario = sc.next();
@@ -29,6 +30,7 @@ public class main {
             System.out.println(palabraSecreta);
         }else{
             System.out.println("Enhorabuena, tenga buena tarde :)");
+            System.out.println("Has tardado "+ (10-intentos) +" intentos");
         }
 
     }
