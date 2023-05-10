@@ -35,6 +35,6 @@ public class main {
             System.out.println("Has tardado "+ (10-intentos) +" intentos");
             System.out.println("Has tardado " + ((System.currentTimeMillis() - startTime)/1000) + " segundos");
         }
-
+        System.out.println(Records.recordDeIntentos());
     }
 }

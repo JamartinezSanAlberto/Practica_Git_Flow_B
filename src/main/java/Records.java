@@ -13,7 +13,7 @@ public class Records{
         String top7="Carlos";
         String top8="Víctor";
         String top9="Jorge";
-        String top10="Matías";
-        return "Los 10 mejores resultados son: \n"+top1+" -> con 1 intento/s\n"+top2+"-> con 2 intento/s\n"+top3+"-> con 4 intento/s\n"+top4+"-> con 10 intento/s\n"+top5+"-> con 19 intento/s\n"+top6+"-> con 25 intento/s\n"+top7+"-> con 31 intento/s\n"+top8+"-> con 39 intento/s\n"+top9+"-> con 43 intento/s\n"+top10;
+        String top10="Mario";
+        return "Los 10 mejores resultados son: \n"+top1+" -> con 2 intento/s\n"+top2+"-> con 4 intento/s\n"+top3+"-> con 5 intento/s\n"+top4+"-> con 10 intento/s\n"+top5+"-> con 19 intento/s\n"+top6+"-> con 25 intento/s\n"+top7+"-> con 31 intento/s\n"+top8+"-> con 39 intento/s\n"+top9+"-> con 43 intento/s\n"+top10+"-> con 104 intento/s";
     }
 }
