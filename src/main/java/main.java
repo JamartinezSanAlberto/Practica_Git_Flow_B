@@ -11,9 +11,11 @@ public class main {
         String palabraSecreta = Creador.crearClave(5);
         Comprobador.Comprueba(palabraSecreta, 5);
         String palabraUsuario = "";
+
         //Presentación
         System.out.println("Bienvenido a el Wordle barato");
         System.out.println("¿Podrás adivinar la palabra de 5 letras? ¡¿En tan solo "+ intentos+ " intentos?!");
+
         while(intentos>0 && !palabraSecreta.equals(palabraUsuario)){
             System.out.println("Intenta adivinar la palabra");
             palabraUsuario = sc.next();
@@ -27,6 +29,8 @@ public class main {
                 System.out.println("PALABRA NO VALIDA");
             }
         }
+
+        //Se comprueba si se ha acertado la palabra
         if(!palabraSecreta.equals(palabraUsuario)){
             System.out.println("Has perdido");
             System.out.println(palabraSecreta);
